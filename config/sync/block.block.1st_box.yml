@@ -1,0 +1,25 @@
+uuid: 9ade5653-9df2-4568-a17f-f7a3106766ce
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f6a65e29-c5f6-4dba-81e1-cbcc7599da07'
+  module:
+    - block_content
+  theme:
+    - bootstrap
+id: 1st_box
+theme: bootstrap
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:f6a65e29-c5f6-4dba-81e1-cbcc7599da07'
+settings:
+  id: 'block_content:f6a65e29-c5f6-4dba-81e1-cbcc7599da07'
+  label: 1st_box
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

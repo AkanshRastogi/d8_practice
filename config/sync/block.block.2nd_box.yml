@@ -1,0 +1,25 @@
+uuid: 4c2bf69c-1481-4b7a-b819-ea8e6ae7eb03
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:14cc87d7-fd80-4148-8cba-dbaf17c527a5'
+  module:
+    - block_content
+  theme:
+    - bootstrap
+id: 2nd_box
+theme: bootstrap
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:14cc87d7-fd80-4148-8cba-dbaf17c527a5'
+settings:
+  id: 'block_content:14cc87d7-fd80-4148-8cba-dbaf17c527a5'
+  label: 2nd_box
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

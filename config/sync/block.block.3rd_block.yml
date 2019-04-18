@@ -1,0 +1,25 @@
+uuid: 7456ffff-1c34-4b01-b80a-6d34b3bf466e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c70f142a-36fa-4ca6-8011-956f352c7e82'
+  module:
+    - block_content
+  theme:
+    - bootstrap
+id: 3rd_block
+theme: bootstrap
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:c70f142a-36fa-4ca6-8011-956f352c7e82'
+settings:
+  id: 'block_content:c70f142a-36fa-4ca6-8011-956f352c7e82'
+  label: 3rd_block
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

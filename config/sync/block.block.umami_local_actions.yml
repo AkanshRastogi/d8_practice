@@ -1,0 +1,20 @@
+uuid: c6efa3f3-0590-4cdb-9066-308e46d41406
+langcode: en
+status: true
+dependencies:
+  theme:
+    - umami
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: umami_local_actions
+theme: umami
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,9 @@
+uuid: 3f8e984c-5573-42f3-99da-d63569bd9532
+langcode: en
+status: true
+dependencies: {  }
+name: Type
+vid: type
+description: 'Types of blogs'
+hierarchy: 0
+weight: 0

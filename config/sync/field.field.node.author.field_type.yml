@@ -1,0 +1,21 @@
+uuid: 0788d897-d976-4c1a-ac19-63a2acb1302a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type
+    - node.type.author
+id: node.author.field_type
+field_name: field_type
+entity_type: node
+bundle: author
+label: type
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference
